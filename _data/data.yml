@@ -51,6 +51,7 @@ career-profile:
       Soy realmente un apasionado de mi trabajo, siempre buscando la mejora continua, tanto
       personal como profesional.
 education:
+    title: Formación Académica
     - degree: Ingeniero en Sistemas de Información
       university: Universidad Tecnológica Nacional (UTN)
       time: |
