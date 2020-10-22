@@ -7,7 +7,7 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Apaza Leo
+    name: Leo Apaza
     tagline: QA Tester
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -50,6 +50,7 @@ career-profile:
       en la Dirección de Proyectos Informáticos (DPI) y del equipo de QA en Practia.
       Soy realmente un apasionado de mi trabajo, siempre buscando la mejora continua, tanto
       personal como profesional.
+
 education:
     title: Formación Académica
     graduation:
@@ -57,24 +58,11 @@ education:
         university: Universidad Tecnológica Nacional (UTN)
         time: |
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
       - degree: Analista Universitario en Sistemas
         university: Universidad Tecnológica Nacional (UTN)
         time: |
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+
 experiences:
       title: Experiencia Profesional
       list:
@@ -101,6 +89,7 @@ experiences:
           - backend: Laravel
           - Frontend: Angular JS, React JS
           - Base de datos: PostgreSQL
+
 projects:
     title: Proyectos
     intro: >
@@ -114,6 +103,15 @@ skills:
     title: Habilidades &amp; Capacidades
 
     toolset:
+      - name: Postman, SoapUI
+        level: 95%
+
+      - name: Robot Framework
+        level: 85%
+
+      - name: GIT
+        level: 98%
+
       - name: SQL
         level: 98%
 
@@ -125,9 +123,3 @@ skills:
 
       - name: Android
         level: 60%
-
-      - name: Postman, SoapUI
-        level: 95%
-
-      - name: Robot Framework
-        level: 85%
