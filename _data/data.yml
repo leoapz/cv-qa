@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -27,7 +27,7 @@ sidebar:
 
     languages:
       - idiom: Español
-        level: Native
+        level: Nativo
 
       - idiom: Ingles
         level: A2
@@ -39,7 +39,7 @@ sidebar:
       - item: CrossFit
         link:
 
-      - item: Folk
+      - item: Folclore Argentino
         link:
 
 career-profile:
@@ -86,80 +86,48 @@ experiences:
           - Diseño y ejecución de Casos de Pruebas
           - Reporte y seguimiento de incidencias
           - Herramientas utilizadas: Jira, Trello, TFS, TestManager
+          
           Automatización
-          - Diseño y ejecución de Casos de Pruebas para regresiones
+          - Diseño y ejecución de Casos de Pruebas para pruebas de regresiones
           - Reporte y seguimiento de incidencias
-          - Herramientas utilizadas: UFT, Robot Framework
+          - Testing de APIs: Postman, SoapUI
+          - Herramientas: UFT, Robot Framework
+      
+      - role: Programador
+        time: 2016 - 2020
+        company: Dirección Proyectos Informáticos (DPI), Argentina
+        details: |
+          - Programación de backend y frontend del sistema
+          - backend: Laravel
+          - Frontend: Angular JS, React JS
+          - Base de datos: PostgreSQL
 projects:
-    title: Projects
+    title: Proyectos
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Listado de proyectos y repositorios
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: FarmaTuc
+        link: "https://play.google.com/store/apps/details?id=com.hp.farmatuc.presentation&hl=es"
+        tagline: "Proyecto realizado en Java con Android Studio"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Habilidades &amp; Capacidades
 
     toolset:
-      - name: Python & Django
+      - name: SQL
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Laravel
         level: 98%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: React JS
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Android
+        level: 60%
+
+      - name: Postman, SoapUI
+        level: 95%
+
+      - name: Robot Framework
+        level: 85%
