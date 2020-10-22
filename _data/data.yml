@@ -78,7 +78,7 @@ education:
 experiences:
       title: Experiencia Profesional
       list:
-        - role: QA Tester
+      - role: QA Tester
         time: 2018 - Actualidad
         company: Practia, Argentina
         details: |
