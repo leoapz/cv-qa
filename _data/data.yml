@@ -75,19 +75,20 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    title: Experiencia Profesional
-    - role: QA Tester
-      time: 2018 - Actualidad
-      company: Practia, Argentina
-      details: |
-        Servicio de Testing y QA
-        - Diseño y ejecución de Casos de Pruebas
-        - Reporte y seguimiento de incidencias
-        - Herramientas utilizadas: Jira, Trello, TFS, TestManager
-        Automatización
-        - Diseño y ejecución de Casos de Pruebas para regresiones
-        - Reporte y seguimiento de incidencias
-        - Herramientas utilizadas: UFT, Robot Framework
+      title: Experiencia Profesional
+      list:
+        - role: QA Tester
+        time: 2018 - Actualidad
+        company: Practia, Argentina
+        details: |
+          Servicio de Testing y QA
+          - Diseño y ejecución de Casos de Pruebas
+          - Reporte y seguimiento de incidencias
+          - Herramientas utilizadas: Jira, Trello, TFS, TestManager
+          Automatización
+          - Diseño y ejecución de Casos de Pruebas para regresiones
+          - Reporte y seguimiento de incidencias
+          - Herramientas utilizadas: UFT, Robot Framework
 projects:
     title: Projects
     intro: >
