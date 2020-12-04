@@ -1,6 +1,12 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
+    {% if sidebar.country %}
+    <li><i class="fas fa-map-marker-alt"></i>
+      <a href="https://www.google.com/maps/place/San+Miguel+de+Tucum%C3%A1n,+Tucum%C3%A1n/@-26.8328417,-65.292634,12z/data=!3m1!4b1!4m5!3m4!1s0x94223792d6c56903:0xf88d5b92b5c56527!8m2!3d-26.8082848!4d-65.2175903" target="_blank">{{ sidebar.country }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
