@@ -122,5 +122,8 @@ skills:
       - name: React JS
         level: 60%
 
-      - name: Java
+      - name: Android/Java
         level: 60%
+        
+      - name: Android/Kotlin
+        level: 50%        
